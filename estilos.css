@@ -71,6 +71,7 @@ thead th{
     padding: 16px 12px;
     color: white;
     background: #17365c;
+    border: 1px solid #577caa;
     text-align: center;
     line-height: 1.4;
 }
@@ -101,6 +102,7 @@ tbody tr:last-child td{
     color: #17265c;
     font-weight: 700;
 }
+/*solo ocupa su espacio*/
 .categoria small{
     display: block;
     margin-top: 6px;
@@ -130,8 +132,8 @@ tbody tr:last-child td{
 }
 .imagen-producto{
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 65px;
+    height: 63px;
     margin: 0 auto;
     padding: 4px;
     object-fit: contain;
@@ -154,6 +156,8 @@ tbody tr:last-child td{
     padding: 12px 18px;
     color: white;
     background: #2563eb;
+    border-radius: 8px;
+    text-decoration: none;
     font-weight: 700;
 }
 .enlace-home:hover{
