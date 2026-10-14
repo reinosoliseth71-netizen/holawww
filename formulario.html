@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!--Header: cabecera del body-->
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <!--Formulario-->
+    <div>
+        <!--action:
+        method:get->img
+        post->para seguridad 
+        -->
+        
+        <form action="../index.html" method="get">
+            <div>
+                <!--me permite ingresar texto fijo-->
+                <!--for->anclar los recursos-->
+                <label for="">ingrese el nombre</label>
+                <!--input-> caja de ingresar texto-->
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <!--me permite ingresar texto fijo-->
+                <label for="">Ingrese la edad</label>
+                <!--input-> caja de ingresar texto-->
+                <input type="number" id="edad">
+            </div>
+            <div>
+                <!--me permite ingresar texto fijo-->
+                <label for="">Ingrese el Correo Electronico</label>
+                <!--input-> caja de ingresar texto-->
+                <input type="email" id="email">
+            </div>
+            <div>
+                <!--me permite ingresar texto fijo-->
+                <label for="">Ingrese la dirección</label>
+                <!--input-> caja de ingresar texto-->
+                <input type="text" itemid="dirección">
+            </div>
+            <!--Boton me permite enviar la petición-->
+            <div>
+                <input type="submit" value="Enviar">
+                
+            </div>
+            
+        </form>
+        <!--regresar a inicio-->
+        <a href="../index.html">ir a home</a>
+    </div>
+</body>
+</html>
